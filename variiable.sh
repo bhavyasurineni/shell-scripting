@@ -11,5 +11,5 @@ echo Good Morning,Today date is $date
 Date=$(date +%F)
 echo Good Morning,Today date is $Date
 
-Value=((2+5-3*9+10_1+40\9))
+Value=$((2+5-3*9+10_1+40\9))
 echo answer is = $Value
